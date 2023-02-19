@@ -1,0 +1,70 @@
+//css
+
+body
+{   
+
+    margin: 0 ;  
+    font-size: 18;
+    font-family: sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+
+h1
+{
+    margin: 5rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+p
+{
+    margin: 5rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#switcher
+{
+   list-style: none;
+   overflow: hidden; 
+
+}
+
+#switcher li
+{    margin: 11.3%;
+     padding: 0;
+     border: 0;
+     float: left;
+     width: 30px;
+     height: 30px;
+     border-radius: 30px;
+     border: 3px solid black;
+     
+}
+#whitebutton
+{
+    background-color: antiquewhite;
+}
+
+#bluebutton
+{
+    background-color: aqua;
+}
+
+#greenbutton
+{
+    background-color: rgb(47, 255, 50);
+}
+
+#redbutton
+{
+    background-color: #ff4000e8;
+}
+
+#switcher li:hover 
+        {
+            transition: 0.3s;
+            background: rgb(112, 108, 108);
+                     
+        }
